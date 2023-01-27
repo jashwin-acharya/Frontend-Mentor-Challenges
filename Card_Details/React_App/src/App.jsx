@@ -30,6 +30,21 @@ function App() {
             ></input>
           </div>
 
+          <div className="secondary-details">
+            <div className="expiration-details">
+              <p>EXP. DATE (MM/YY)</p>
+              <div className="month-year">
+                <input type="text" placeholder="MM"></input>
+                <input type="text" placeholder="YY"></input>
+              </div>
+            </div>
+
+            <div className="cvc-details">
+              <p>CVC</p>
+              <input type="text" placeholder="e.g. 123"></input>
+            </div>
+          </div>
+
           <button>Confirm</button>
         </div>
       </div>

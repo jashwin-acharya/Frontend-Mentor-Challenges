@@ -67,10 +67,11 @@ input {
 
 p {
   color: hsl(278, 68%, 26%);
-  font-size: 18px;
+  font-size: 10px;
   font-family: "Space Grotesk";
   margin-top: 0px;
   margin-bottom: 5px;
+  letter-spacing: 2px;
 }
 
 ::placeholder {
@@ -78,10 +79,31 @@ p {
 }
 
 button {
-  width: 100%;
+  width: 101.5%;
   height: 50px;
   border-radius: 5px;
   background-color: hsl(278, 82%, 13%);
   font-size: 18px;
   color: white;
+}
+
+.secondary-details {
+  width: 100%;
+  display: flex;
+}
+
+.expiration-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.month-year {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+}
+
+.cvc-details {
+  width: 50%;
 }
